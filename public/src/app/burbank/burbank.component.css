@@ -1,0 +1,7 @@
+* {
+  vertical-align: top;
+}
+#temp, #img {
+  width: 45%;
+  display: inline-block;
+}

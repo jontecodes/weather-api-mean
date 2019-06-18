@@ -1,0 +1,11 @@
+<h1>Chicago, IL</h1>
+<p>{{ chicago | json }}</p>
+<div id="temp">
+  <p>Humidity: {{ chicago['humidity']}}</p>
+  <p>Temperature (Average): {{ chicago['temp']}} </p>
+  <p>Temperature (High): {{ chicago['temp_max']}} </p>
+  <p>Temperature (Low): {{ chicago['temp_min']}} </p>
+</div>
+<div id="img">
+  <img src="https://images.pexels.com/photos/1569012/pexels-photo-1569012.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Chicago Bean">
+</div>
